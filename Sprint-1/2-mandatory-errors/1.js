@@ -2,3 +2,5 @@
 
 const age = 33;
 age = age + 1;
+
+// Age was assigned as a constant variable, it can't be reassigned. We can change it to let, let age=33;
