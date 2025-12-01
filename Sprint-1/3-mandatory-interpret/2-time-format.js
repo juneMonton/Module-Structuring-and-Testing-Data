@@ -13,13 +13,26 @@ console.log(result);
 
 // a) How many variable declarations are there in this program?
 
-// b) How many function calls are there?
+    /*
+    There are 6 variable declarations
+    const movieLength
+    const remainingSeconds
+    const totalMinutes
+    const remainingMinutes
+    const totalHours
+    const result
+    */
+
+// b) How many function calls are there?-There's only 1 function call
 
 // c) Using documentation, explain what the expression movieLength % 60 represents
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
 
+    //The expression  movieLength%60 represents modulo operator, using %60 helps you extract how many seconds remaining.
+
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?
+    //totalMinutes represents how many complete minutes fit inside the movie length.
 
-// e) What do you think the variable result represents? Can you think of a better name for this variable?
+// e) What do you think the variable result represents? Can you think of a better name for this variable?-the result variable formats the movie time to a string showing hours, minutes and seconds, it can be renamed to formattedTime
 
-// f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
+// f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer-Yes as long as the movieLength value is positive
