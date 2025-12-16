@@ -3,3 +3,5 @@
 
 console.log(`I was born in ${cityOfBirth}`);
 const cityOfBirth = "Bolton";
+
+//Because the cityOfBirth was not defined yet before printing it, there's nothing to print
